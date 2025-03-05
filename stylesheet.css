@@ -1,0 +1,59 @@
+* {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: 5px;
+    
+}
+
+
+.header { 
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.p {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnR, .btnS, .btnP {
+    background-color: green;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+.computerContainer {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding:30px; 
+    color: black;
+    text-align: center;
+}
+
+.computerOutput {
+    background-color: white;
+}
+
+.whoWonContainer {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.restartbtn {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    border-radius: 5px;
+}
